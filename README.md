@@ -10,7 +10,7 @@ This could be done by issuing the following in a Command Prompt:
 
 Then get the packages.config file:
 
-    @powershell -Command "((New-Object System.Net.WebClient).DownloadFile('https://raw.github.com/soren/chocolatey-packages-config/master/packages.config', 'packages2.config'))"
+    @powershell -Command "((New-Object System.Net.WebClient).DownloadFile('https://raw.github.com/derekliang/chocolatey-packages-config/master/packages.config', 'packages.config'))"
 
 and now you're ready to install (might take some time):
 
